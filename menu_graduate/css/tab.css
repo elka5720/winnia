@@ -1,4 +1,4 @@
-@media all and (min-width: 1300px) {
+@media all and (max-width: 999px) and (min-width: 650px) {
     
     
     /*공통영역*/
@@ -14,8 +14,8 @@
         position: relative;
     }
     
-    #sc1-top-wrap, .container {
-        width: 1100px;
+    .container {
+        width: 88%;
         height: 100%;
         margin: 0 auto;
         position: relative;
@@ -53,31 +53,30 @@
     }
     
     #header-left {
-        width: 265px;
+        width: 90px;
         height: 100px;
         position: relative;
         top: 50px;
-        left: 85px;
+        left: 55px;
         z-index: 5;
     }
     
     #logo {
-        opacity: 0.8;
+        width: 30px;
+        opacity: 0.4;
         float: left;
     }
     
     #header-left-txt {
-        font-family: 'Khand';
-        font-size: 18px;
-        padding-top: 15px;
-        padding-left: 64px;
-        color: #d8d8d8;
+        display: none;
     }
     
     #title {
         font-family: 'Khand';
-        font-size: 26px;
+        font-size: 22px;
         color: #d8d8d8;
+        padding-top: 40px;
+        opacity: 0.4;
     }
     
     #header-left-line {
@@ -85,191 +84,131 @@
         height: 1px;
         background-color: #4d4d4d;
         margin-left: -4px;
+        position: absolute;
+        top: 35px;
+        left: -5px;
     }
     
     /*header ----------*/
     
     
     #section-1 {
-        height: 550px;
-        margin-top: 120px;
+        height: 3950px;
+        /*height: 5400px;*/
+        margin-top: 140px;
     }
     
-    #sc1-top-wrap {
+    #img-wrap-last {
+        position: absolute;
+        top: 110px;
+        display: none;
+    }
+    
+    #sc-title-mo {
+        display: none;
+    }
+    
+    #sc-title {
+        width: 201px;
+        height: 30px;
+        margin: 50px auto 80px auto;
+    }
+    
+    .sc-title-li {
+        width: 85px;
         height: 100%;
-        text-align: center;
-    }
-    
-    #sc1-bit {
-        width: 100%;
-        height: 80px;
-        font: 600 80px/80px 'Khand';
-        margin-bottom: 40px;
-        color: #d6d6d6;
-    }
-    
-    #sc1-top-txt {
-        width: 100%;
-        height: 235px;
-    }
-    
-    #sc1-top-txt li {
-        height: 30px;
-        font: 16px/30px '';
-        color: #7b7b7b;
-    }
-    
-    #sc1-top-txt li:last-child {
-        margin-top: 20px;
-    }
-    
-    #sc1-top-uou {
-        width: 100%;
-        height: 260px;
-    }
-    
-    #date {
-        height: 35px;
-        font: 16px/35px '';
-    }
-    
-    #place {
-        height: 58px;
-        font: 600 27px/58px '';
-    }
-    
-    #time {
-        height: 30px;
-        font: 16px/30px '';
-    }
-    
-    #sc1-dot {
-        width: 150px;
-        height: 14px;
-        margin: 0 auto;
-    }
-    
-    #sc1-dot li {
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
         float: left;
-        margin-right: 20px;
-        background-color: #505050;
+        margin-right: 30px;
     }
     
-    #sc1-dot li:last-child {
+    .sc-title-li:last-child {
         margin-right: 0;
     }
     
-    /*section-1 ----------*/
-    
-    
-    #section-2 {
-        height: 2400px;
-        margin-top: 200px;
-    }
-    
-    #sc2-title {
+    .title-name {
         width: 100%;
-        height: 50px;
+        height: 30px;
+        font: 600 27px/30px 'Khand';
         text-align: center;
-        font: 20px/50px '';
-        margin-bottom: 60px;
+        color: #4a4a4a;
+        cursor: pointer;
     }
     
-    #sc2-img-wrap {
-        width: 100%;
-        height: 2170px;
-    }
-    
-    .sc2-con-wrap {
-        width: 100%;
-        height: 410px;
-    }
-    
-    .sc2-con-left {
-        width: 510px;
+    #title-line {
+        width: 1px;
         height: 100%;
-        margin-right: 80px;
+        background-color: #4a4a4a;
+        float: left;
+        margin-left: -20px;
+    }
+    
+    .title-name-this {
+        color: #b2b2b2;
+    }/*addclass*/
+    
+    .img-wrap {
+        width: 100%;
+        /*height: 2170px;*/
+    }
+    
+    .con-wrap {
+        width: 100%;
+        height: 480px;
+    }
+    
+    .con-left {
+        width: /*440px*/ 41.5415vw;
+        height: 100%;
         float: left;
     }
     
-    .sc2-con-right {
-        width: 510px;
+    .con-right {
+        width: /*440px*/ 41.5415vw;
         height: 100%;
         float: right;
     }
     
     .student-img {
-        width: 510px;
-        height: 300px;
+        width: /*440px*/ 41.5415vw;
+        height: 260px;
         background-color: #adadad;
     }
     
-    .student-name {
+    .student-info-wrap {
         width: 100%;
-        height: 55px;
-        text-align: center;
-        font: 17px/55px '';
-        color: #a8a8a8;
+        height: 120px;
+        margin-top: 10px;
     }
     
-    #sc2-dot {
-        width: 150px;
-        height: 14px;
-        margin: 0 auto;
+    .student-info {
+        width: 100%;
+        height: 35px;
     }
     
-    #sc2-dot li {
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
+    .stu-left {
+        width: 110px;
+        height: 35px;
         float: left;
-        margin-right: 20px;
-        background-color: #505050;
+        font: 16px/35px '';
+        color: #585858;
+        margin-left: 1%;
     }
     
-    #sc2-dot li:last-child {
-        margin-right: 0;
+    .stu-right {
+        width: 150px;
+        height: 35px;
+        float: right;
+        text-align: right;
+        font: 16px/35px '';
+        color: #585858;
+        margin-right: 1%;
     }
     
-    /*section-2 ----------*/
-    
-    
-    #section-3 {
-        height: 720px;
-        margin-top: 20px;
+    .name {
+        color: #d6d6d6;
     }
     
-    #sc3-title {
-        width: 100%;
-        height: 50px;
-        text-align: center;
-        font: 20px/50px '';
-        margin-bottom: 60px;
-    }
-    
-    .sc3-prof {
-        width: 100%;
-        height: 100px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    .class {
-        width: 100%;
-        height: 50px;
-        font: 600 25px/50px 'Khand';
-        color: #a7a7a7;
-    }
-    
-    .prof {
-        width: 100%;
-        font-size: 17px;
-    }
-    
-    /*section-3 ----------*/
+    /*section-1 ----------*/
     
     
     #in-footer {
@@ -279,6 +218,7 @@
         margin: 0 auto;
         text-align: center;
         margin-bottom: 30px;
+        margin-top: 100px;
     }
     
     /*footer ----------*/
@@ -391,4 +331,4 @@
     
     
     
-} /*about_pc end*/
+} /*gradu_tab end*/

@@ -1,4 +1,4 @@
-@media all and (min-width: 1300px) {
+@media all and (max-width: 649px) {
     
     
     /*공통영역*/
@@ -15,11 +15,11 @@
     }
     
     #sc1-top-wrap, .container {
-        width: 1100px;
+        width: 88%;
         height: 100%;
         margin: 0 auto;
         position: relative;
-        color: #d8d8d8;
+        color: #c7c7c7;
     }
     
     /*공통영역 end*/
@@ -35,56 +35,48 @@
     }
     
     #menu-btn {
-        width: 47px;
+        width: 40px;
         height: 23px;
         position: absolute;
-        top: 60px;
+        top: 44px;
         left: 50%;
-        margin-left: -23.5px;
+        margin-left: -20px;
         cursor: pointer;
     }
     
     #menu-btn li {
         width: 100%;
         height: 10px;
-        border-top: 1px solid #c4c4c4;
+        border-top: 1px solid #868686;
         box-sizing: border-box;
         transition-duration: 0.5s;
     }
     
     #header-left {
-        width: 265px;
-        height: 100px;
+        width: 80px;
         position: relative;
-        top: 50px;
-        left: 85px;
+        top: 45px;
+        left: 35px;
         z-index: 5;
     }
     
     #logo {
-        opacity: 0.8;
-        float: left;
+        display: none;
     }
     
     #header-left-txt {
-        font-family: 'Khand';
-        font-size: 18px;
-        padding-top: 15px;
-        padding-left: 64px;
-        color: #d8d8d8;
+        display: none;
     }
     
     #title {
         font-family: 'Khand';
-        font-size: 26px;
+        font-size: 18px;
         color: #d8d8d8;
+        opacity: 0.4;
     }
     
     #header-left-line {
-        width: 100%;
-        height: 1px;
-        background-color: #4d4d4d;
-        margin-left: -4px;
+        display: none;
     }
     
     /*header ----------*/
@@ -92,7 +84,7 @@
     
     #section-1 {
         height: 550px;
-        margin-top: 120px;
+        margin-top: 185px;
     }
     
     #sc1-top-wrap {
@@ -103,9 +95,9 @@
     #sc1-bit {
         width: 100%;
         height: 80px;
-        font: 600 80px/80px 'Khand';
+        font: 600 50px/80px 'Khand';
         margin-bottom: 40px;
-        color: #d6d6d6;
+        color: #cbcbcb;
     }
     
     #sc1-top-txt {
@@ -114,8 +106,8 @@
     }
     
     #sc1-top-txt li {
-        height: 30px;
-        font: 16px/30px '';
+        height: 29px;
+        font: 14px/29px '';
         color: #7b7b7b;
     }
     
@@ -130,28 +122,28 @@
     
     #date {
         height: 35px;
-        font: 16px/35px '';
+        font: 15px/35px '';
     }
     
     #place {
-        height: 58px;
-        font: 600 27px/58px '';
+        height: 49px;
+        font: 600 22px/45px '';
     }
     
     #time {
         height: 30px;
-        font: 16px/30px '';
+        font: 15px/30px '';
     }
     
     #sc1-dot {
-        width: 150px;
+        width: 130px;
         height: 14px;
         margin: 0 auto;
     }
     
     #sc1-dot li {
-        width: 14px;
-        height: 14px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
         float: left;
         margin-right: 20px;
@@ -166,7 +158,7 @@
     
     
     #section-2 {
-        height: 2400px;
+        height: 3880px;
         margin-top: 200px;
     }
     
@@ -174,36 +166,35 @@
         width: 100%;
         height: 50px;
         text-align: center;
-        font: 20px/50px '';
+        font: 16px/50px '';
         margin-bottom: 60px;
     }
     
     #sc2-img-wrap {
         width: 100%;
-        height: 2170px;
+        height: 3600px;
     }
     
     .sc2-con-wrap {
         width: 100%;
-        height: 410px;
+        height: 350px;
     }
     
     .sc2-con-left {
-        width: 510px;
+        width: 100%;
         height: 100%;
-        margin-right: 80px;
         float: left;
     }
     
     .sc2-con-right {
-        width: 510px;
+        width: 100%;
         height: 100%;
         float: right;
     }
     
     .student-img {
-        width: 510px;
-        height: 300px;
+        width: 100%;
+        height: 230px;
         background-color: #adadad;
     }
     
@@ -211,19 +202,19 @@
         width: 100%;
         height: 55px;
         text-align: center;
-        font: 17px/55px '';
+        font: 14px/55px '';
         color: #a8a8a8;
     }
     
     #sc2-dot {
-        width: 150px;
+        width: 130px;
         height: 14px;
         margin: 0 auto;
     }
     
     #sc2-dot li {
-        width: 14px;
-        height: 14px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
         float: left;
         margin-right: 20px;
@@ -238,48 +229,48 @@
     
     
     #section-3 {
-        height: 720px;
-        margin-top: 20px;
+        height: 620px;
     }
     
     #sc3-title {
         width: 100%;
         height: 50px;
         text-align: center;
-        font: 20px/50px '';
-        margin-bottom: 60px;
+        font: 16px/50px '';
+        margin-bottom: 50px;
     }
     
     .sc3-prof {
         width: 100%;
-        height: 100px;
+        height: 70px;
         text-align: center;
         margin-bottom: 20px;
     }
     
     .class {
         width: 100%;
-        height: 50px;
-        font: 600 25px/50px 'Khand';
+        height: 35px;
+        font: 300 20px/35px 'Khand';
         color: #a7a7a7;
     }
     
     .prof {
         width: 100%;
-        font-size: 17px;
+        font-size: 15px;
     }
     
     /*section-3 ----------*/
     
     
     #in-footer {
-        font-size: 11px;
-        margin-top: 90px;
+        font-size: 9px;
+        margin-top: 50px;
         color: #464646;
         margin: 0 auto;
         text-align: center;
         margin-bottom: 30px;
     }
+    
     
     /*footer ----------*/
     
@@ -296,13 +287,11 @@
     }
     
     #in-menu-wrap {
-        width: 500px;
-        height: 700px;
+        width: 100%;
+        height: 500px;
         position: absolute;
         top: 50%;
-        left: 50%;
-        margin-top: -310px;
-        margin-left: -250px;
+        margin-top: -250px;
         text-align: center;
         font-family: 'Khand';
     }
@@ -315,28 +304,27 @@
         width: 100%;
         height: 1px;
         background-color: #383838;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
     
     .menu-title {
         width: 200px;
-        height: 80px;
-        font: 800 48px/80px 'Khand';
+        height: 60px;
+        font: 800 35px/60px 'Khand';
         margin: 0 auto;
     }
     
     #menu-pro {
         width: 100%;
-        height: 120px;
-        font: 800 95px/120px 'Khand';
-        margin-bottom: 20px;
+        height: 100px;
+        font: 800 55px/100px 'Khand';
     }
     
     .menu-project {
         width: 250px;
-        height: 56px;
-        font: 23px/56px 'Khand';
+        height: 46px;
+        font: 17px/46px 'Khand';
         margin: 0 auto;
     }
     
@@ -391,4 +379,4 @@
     
     
     
-} /*about_pc end*/
+} /*about_mo end*/

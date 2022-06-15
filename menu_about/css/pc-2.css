@@ -1,4 +1,4 @@
-@media all and (min-width: 1300px) {
+@media all and (max-width: 1299px) and (min-width: 1000px) {
     
     
     /*공통영역*/
@@ -15,7 +15,7 @@
     }
     
     #sc1-top-wrap, .container {
-        width: 1100px;
+        width: 930px;
         height: 100%;
         margin: 0 auto;
         position: relative;
@@ -189,20 +189,20 @@
     }
     
     .sc2-con-left {
-        width: 510px;
+        width: 440px;
         height: 100%;
-        margin-right: 80px;
+        margin-right: 50px;
         float: left;
     }
     
     .sc2-con-right {
-        width: 510px;
+        width: 440px;
         height: 100%;
         float: right;
     }
     
     .student-img {
-        width: 510px;
+        width: 440x;
         height: 300px;
         background-color: #adadad;
     }
@@ -391,4 +391,4 @@
     
     
     
-} /*about_pc end*/
+} /*about_pc-2 end*/
