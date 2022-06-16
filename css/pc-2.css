@@ -156,7 +156,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-top: -280px;
+        margin-top: -260px;
         margin-left: -250px;
         text-align: center;
         font-family: 'Khand';
@@ -190,8 +190,8 @@
     
     .menu-project {
         width: 250px;
-        height: 56px;
-        font: 21px/56px 'Khand';
+        height: 46px;
+        font: 21px/46px 'Khand';
         margin: 0 auto;
     }
     
