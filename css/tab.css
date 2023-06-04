@@ -1,0 +1,1039 @@
+@media all and (max-width: 1399px) and (min-width: 1100px) {
+    
+    
+    @font-face {
+        font-family: 'NEXON Lv2 Gothic';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    #wrap {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    section, footer {
+        width: 100%;
+        position: relative;
+    }
+    
+    #in-header, .container, #in-footer {
+        width: 1050px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    /**/
+    
+    
+    header {
+        height: 90px;
+        position: relative;
+        z-index: 10;
+    }
+    
+    #header-logo {
+        width: 120px;
+        float: left;
+        margin-top: 35px;
+    }
+    
+    #menu-wrap {
+        width: 417px;
+        height: 90px;
+        margin-left: 197px;
+        float: left;
+        font: 16px/90px 'NEXON Lv2 Gothic';
+    }
+    
+    #menu-wrap li {
+        margin-right: 55px;
+        float: left;
+    }
+    
+    #menu-wrap li a {
+        color: #fff;
+    }
+    
+    #menu-wrap li:nth-child(4) {
+        margin-right: 0;
+    }
+    
+    #menu-wrap li:last-child {
+        display: none;
+    }
+    
+    #header-search {
+        width: 18px;
+        float: right;
+        margin-top: 34px;
+        cursor: pointer;
+    }
+    
+    #search-back-mask {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    #search-wrap {
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        position: absolute;
+        top: /*0*/ -100px;
+    }
+    
+    #input-wrap {
+        width: 550px;
+        height: 45px;
+        position: absolute;
+        top: 17.5px;
+        left: 50%;
+        margin-left: -275px;
+    }
+    
+    #search-wrap input {
+        width: 550px;
+        height: 45px;
+        border: 1px solid #d1d1d1;
+        border-radius: 100px;
+        box-sizing: border-box;
+        font: 15px/45px 'NEXON Lv2 Gothic';
+    }
+    
+    #search-wrap input-value {
+        margin-left: 50px;
+    }
+    
+    #search-wrap img {
+        width: 16px;
+        position: absolute;
+        top: 14px;
+        right: 26px;
+    }
+    
+    #search-x {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+        border: 1px solid #d1d1d1;
+        background-color: #fff;
+        position: absolute;
+        top: /*100px*/ -50px;
+        left: 50%;
+        margin-left: -17.5px;
+        font: 18px/38px 'NEXON Lv2 Gothic';
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    /*header ---------------*/
+    
+    
+    #section-1 {
+        height: 690px;
+        top: -90px;
+    }
+    
+    #banner-wrap {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #banner-1 {
+        background-image: url(../img/section1/banner1.png);
+    }
+    
+    #banner-2 {
+        background-image: url(../img/section1/banner2.png);
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+    
+    #banner-3 {
+        background-image: url(../img/section1/banner3.png);
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+    
+    #banner-4 {
+        background-image: url(../img/section1/banner4.png);
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+    
+    .banner-txt-wrap {
+        width: 500px;
+        height: 100px;
+        float: left;
+        margin-top: 250px;
+    }
+    
+    .banner-txt-wrap li {
+        width: 100%;
+    }
+    
+    .banner-txt-wrap li:nth-child(1) {
+        height: 35px;
+        font: 15px/35px 'NEXON Lv2 Gothic';
+        color: #fff;
+    }
+    
+    .banner-txt-wrap li:last-child {
+        height: 50px;
+        font: 34px/50px 'NEXON Lv2 Gothic';
+        color: #fff;
+    }
+    
+    #banner-under-wrap {
+        width: 500px;
+        height: 150px;
+        position: absolute;
+        top: -330px;
+        left: 0;
+    }
+    
+    #under-txt {
+        width: 100%;
+        height: 45px;
+        font: 15px/45px 'NEXON Lv2 Gothic';
+        color: #fff;
+    }
+    
+    #under-btn {
+        width: 100%;
+        height: 30px;
+    }
+    
+    #under-btn li {
+        width: 100px;
+        height: 28px;
+        float: left;
+        margin-right: 13px;
+        border: 1px solid #a5a5a5;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        text-align: center;
+    }
+    
+    #under-btn li:last-child {
+        margin-right: 0;
+    }
+    
+    #under-btn li a {
+        font: 14px/28px 'NEXON Lv2 Gothic';
+        color: #dddddd;
+    }
+    
+    #banner-circle-wrap {
+        width: 10px;
+        height: 210px;
+        position: absolute;
+        top: 220px;
+        right: 53px;
+    }
+    
+    .ban-circle {
+        width: 4px;
+        height: 4px;
+        border-radius: 100px;
+        background-color: #fff;
+        margin-top: 9px;
+        margin-bottom: 36px;
+        opacity: 0;
+    }
+    
+    .ban-circle-add {
+        opacity: 1;
+    }
+    
+    #banner-gall-wrap {
+        width: 10px;
+        height: 210px;
+        position: absolute;
+        top: 220px;
+        right: 40px;
+    }
+    
+    .ban-gall {
+        width: 23px;
+        height: 40px;
+        font: 14px/23px 'NEXON Lv2 Gothic';
+        color: #bababa;
+    }
+    
+    .ban-gall-add {
+        color: #fff;
+    }
+    
+    /*section-1 ---------------*/
+    
+    
+    #section-2 {
+        height: 370px;
+        margin-top: 40px;
+    }
+    
+    #sc2-left-wrap {
+        width: 280px;
+        height: 300px;
+        float: left;
+    }
+    
+    #sc2-title {
+        width: 100%;
+        height: 55px;
+        font: 600 21px/55px 'NEXON Lv2 Gothic';
+    }
+    
+    #sc2-txt {
+        width: 100%;
+        height: 50px;
+        font: 15px/24px 'NEXON Lv2 Gothic';
+        margin-bottom: 15px;
+    }
+    
+    .sc2-btn {
+        width: 100%;
+        height: 45px;
+        border: 1px solid #8d8d8d;
+        border-top-right-radius: 13px;
+        border-bottom-left-radius: 13px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    
+    .sc2-btn:hover {
+        background-color: #fafafa;
+    }
+    
+    .sc2-btn a {
+        font: 15px/45px 'NEXON Lv2 Gothic';
+        margin-left: 20px;
+        float: left;
+    }
+    
+    .sc2-btn img {
+        width: 40px;
+        float: right;
+        margin-right: 19px;
+        margin-top: 20px;
+        animation: top 0.4s alternate infinite;
+    }
+    
+    @keyframes top {
+        from {
+            margin-right: 19px;
+        }
+        to {
+            margin-right: 23px;
+        }
+    }
+    
+    #sc2-right-wrap {
+        width: 730px;
+        height: 300px;
+        float: right;
+    }
+    
+    #sc2-right-wrap img {
+        width: 233.333px;
+        float: left;
+        margin-right: 15px;
+    }
+    
+    #sc2-right-wrap img:last-child {
+        margin-right: 0;
+    }
+    
+    #sc2-btn-mo-wrap {
+        display: none;
+    }
+    
+    /*section-2 ---------------*/
+    
+    
+    #section-3 {
+        height: 830px;
+        margin-top: 40px;
+    }
+    
+    #sc3-title {
+        width: 100%;
+        height: 50px;
+        font: 600 21px/50px 'NEXON Lv2 Gothic';
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    
+    #sc3-btn {
+        width: 550px;
+        height: 28px;
+        font: 15px/28px 'NEXON Lv2 Gothic';
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #sc3-btn li {
+        width: 110px;
+        height: 100%;
+        border-right: 1px solid #8d8d8d;
+        float: left;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    
+    #sc3-btn li:nth-child(1) {
+        border-left: 1px solid #8d8d8d;
+    }
+    
+    .sc3-btn-more {
+        border-top: 1px solid #8d8d8d;
+        border-bottom: 1px solid #8d8d8d;
+    }
+    
+    #sc3-img-wrap {
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        top: 130px;
+        left: 0;
+    }
+    
+    .sc3-img {
+        width: 100%;
+        height: 580px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .sc3-img:nth-child(1) {
+        background-image: url(../img/section3/img1.png);
+    }
+    
+    .sc3-img:nth-child(2) {
+        background-image: url(../img/section3/img2.png);
+        display: none;
+    }
+    
+    .sc3-img:nth-child(3) {
+        background-image: url(../img/section3/img3.png);
+        display: none;
+    }
+    
+    .sc3-img:nth-child(4) {
+        background-image: url(../img/section3/img4.png);
+        display: none;
+    }
+    
+    .sc3-img:nth-child(5) {
+        background-image: url(../img/section3/img5.png);
+        display: none;
+    }
+    
+    #sc3-more {
+        width: 130px;
+        height: 35px;
+        font: 15px/35px 'NEXON Lv2 Gothic';
+        text-align: center;
+        border: 1px solid #8d8d8d;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        margin: 0 auto;
+        cursor: pointer;
+        position: absolute;
+        bottom: 45px;
+        left: 50%;
+        margin-left: -75px;
+    }
+    
+    #sc3-more:hover {
+        background-color: #fafafa;
+    }
+    
+    /*section-3 ---------------*/
+    
+    
+    #section-4 {
+        height: 350px;
+        margin-top: 200px;
+    }
+    
+    #sc4-txt-wrap {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .sc4-title {
+        width: 100%;
+        height: 35px;
+        font: 600 24px/35px 'NEXON Lv2 Gothic';
+        text-align: center;
+    }
+    
+    #sc4-txt {
+        display: none;
+    }
+    
+    .typ {
+        width: 100%;
+        height: 25px;
+        font: 17px/25px 'NEXON Lv2 Gothic';
+        text-align: center;
+        color: #3e3e3e;
+        position: absolute;
+        top: 90px;
+    }
+    
+    #sc4-left {
+        width: 370px;
+        height: 400px;
+        position: relative;
+        top: -250px;
+        left: -10px;
+        float: left;
+    }
+    
+    #sc4-left img {
+        width: 320px;
+    }
+    
+    #sc4-center {
+       display: none
+    }
+    
+    #sc4-right {
+        width: 350px;
+        height: 450px;
+        float: right;
+        position: relative;
+        top: -280px;
+        right: -55px;
+    }
+    
+    #sc4-right img {
+        width: 300px;
+    }
+    
+    /*animation*/
+    
+    #line-left {
+        width: 500px;
+        position: absolute;
+        top: -60px;
+        left: -80px;
+        stroke-dasharray: 2500;
+        stroke-dashoffset: 0;
+        animation: left 4s alternate infinite;
+    }
+    
+    @keyframes left {
+        from {
+            stroke-dashoffset: 2200;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    #line-right {
+        width: 480px;
+        position: absolute;
+        top: -30px;
+        left: -95px;
+        z-index: 10;
+        stroke-dasharray: 2300;
+        stroke-dashoffset: 0;
+        animation: right 4s alternate infinite;
+    }
+    
+    @keyframes right {
+        from {
+            stroke-dashoffset: 2300;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    /*section-4 ----------------*/
+    
+    
+    #section-5 {
+        height: 600px;
+    }
+    
+    
+    #sc5-left {
+        width: 100%;
+        height: 315px;
+        padding-right: 300px;
+        background-color: #f5f5f5;
+        position: absolute;
+        top: 200px;
+    }
+    
+    #sc5-title {
+        width: 400px;
+        height: 50px;
+        font: 600 21px/50px 'NEXON Lv2 Gothic';
+        margin: 50px 0 10px 50px;
+    }
+    
+    #sc5-txt {
+        width: 400px;
+        height: 100px;
+        font: 15px/22px 'NEXON Lv2 Gothic';
+        margin-left: 50px;
+    }
+    
+    #sc5-btn {
+        width: 230px;
+        height: 40px;
+        border: 1px solid #8d8d8d;
+        border-top-right-radius: 13px;
+        border-bottom-left-radius: 13px;
+        margin: 10px 0 0 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    
+    #sc5-btn a {
+        font: 15px/40px 'NEXON Lv2 Gothic';
+        margin-left: 20px;
+        float: left;
+    }
+    
+    #sc5-btn img {
+        width: 40px;
+        float: right;
+        margin-right: 19px;
+        margin-top: 18px;
+        animation: bottom 0.4s alternate infinite;
+    }
+    
+    @keyframes bottom {
+        from {
+            margin-right: 19px;
+        }
+        to {
+            margin-right: 23px;
+        }
+    }
+    
+    #sc5-btn:hover {
+        background-color: #f0f0f0;
+    }
+    
+    #sc5-right {
+        width: 1710px;
+        height: 450px;
+        position: absolute;
+        top: 85px;
+        left: 495px;
+        overflow: hidden;
+    }
+    
+    #sc5-img-wrap {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    
+    .sc5-img {
+        width: 570px;
+        float: left;
+    }
+    
+    .sc5-img img {
+        width: 550px;
+    }
+    
+    #sc5-sub-txt {
+        width: 200px;
+        height: 45px;
+        font: 16px/45px 'NEXON Lv2 Gothic';
+        color: #767676;
+        position: absolute;
+        bottom: 102px;
+        left: 528px;
+    }
+    
+    #sc5-color-wrap {
+        width: 45px;
+        height: 125px;
+        position: absolute;
+        bottom: 129px;
+        left: 450px;
+    }
+    
+    .sc5-color {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        cursor: pointer;
+    }
+    
+    .sc5-color:nth-child(1) {
+        background-color: #91b995;
+    }
+    
+    .sc5-color:nth-child(2) {
+        background-color: #f24860;
+    }
+    
+    .sc5-color:nth-child(3) {
+        background-color: #d0d0d0;
+        margin-bottom: 0;
+    }
+    
+    /*section-5 ---------------*/
+    
+    
+    #section-6 {
+        width: 100%;
+        height: 800px;
+        margin-top: 80px;
+    }
+    
+    #sc6-title {
+        display: none;
+    }
+    
+    #sc6-title-nopc {
+        width: 100%;
+        height: 40px;
+        font: 600 21px/40px 'NEXON Lv2 Gothic';
+        text-align: center;
+    }
+    
+    #sc6-sub-txt {
+        width: 100%;
+        height: 30px;
+        font: 15px/30px 'NEXON Lv2 Gothic';
+        text-align: center;
+        color: #767676;
+    }
+    
+    #sc6-bottom-wrap {
+        width: 100%;
+        height: 520px;
+        margin-top: 30px;
+    }
+    
+    .sc6-con {
+        width: 336.666px;
+        height: 480px;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    .sc6-con:last-child {
+        margin-right: 0;
+    }
+    
+    #sc6-con-mo {
+        display: none;
+    }
+    
+    .sc6-con-txt-wrap {
+        width: 100%;
+        height: 50%;
+        border: 1px solid #9f9f9f;
+        box-sizing: border-box;
+    }
+    
+    .sc6-con-title {
+        width: 390px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 32px;
+        margin-bottom: 5px;
+        font: 18px/50px 'NEXON Lv2 Gothic';
+    }
+    
+    .sc6-con-txt {
+        width: 390px;
+        height: 70px;
+        margin-left: 30px;
+        font: 15px/23px 'NEXON Lv2 Gothic';
+    }
+    
+    .sc6-con-more {
+        width: 390px;
+        height: 50px;
+        margin-left: 30px;
+        font: 15px/50px 'NEXON Lv2 Gothic';
+        color: #767676;
+        cursor: pointer;
+    }
+    
+    .sc6-img-wrap {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .sc6-img-wrap img {
+        width: 336.666px;
+        height: 240px;
+    }
+    
+    #sc6-btn {
+        width: 130px;
+        height: 35px;
+        font: 15px/35px 'NEXON Lv2 Gothic';
+        text-align: center;
+        border: 1px solid #8d8d8d;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    
+    #sc6-btn:hover {
+        background-color: #fafafa;
+    }
+    
+    /*section-6 ---------------*/
+    
+    
+    #section-7 {
+        width: 100%;
+        height: 700px;
+        margin-top: 60px;
+    }
+    
+    #sc7-backcolor {
+        width: 100%;
+        height: 300px;
+        background-color: #f5f5f5;
+    }
+    
+    #sc7-backimg {
+        width: 100%;
+        height: 380px;
+        background-image: url(../img/section7/backimg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #sc7-title {
+        width: 100%;
+        height: 50px;
+        font: 600 21px/50px 'NEXON Lv2 Gothic';
+        position: absolute;
+        top: -580px;
+        text-align: center;
+    }
+    
+    #sc7-con-wrap {
+        width: 100%;
+        height: 247.5px;
+        position: absolute;
+        top: -510px;
+        text-align: center;
+    }
+    
+    #sc7-con-wrap li {
+        width: 247.5px;
+        height: 247.5px;
+        margin-right: 20px;
+        background-color: #fff;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 18px;
+        float: left;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    #sc7-con-wrap li:last-child {
+        margin-right: 0;
+    }
+    
+    #sc7-con-wrap li img {
+        margin: 0 auto;
+    }
+    
+    #sc7-img1 {
+        width: 71px;
+        padding-top: 65px;
+    }
+    
+    #sc7-img2 {
+        width: 59px;
+        padding-top: 72px;
+    }
+    
+    #sc7-img3 {
+        width: 86px;
+        padding-top: 80px;
+    }
+    
+    #sc7-img4 {
+        width: 60px;
+        padding-top: 70px;
+    }
+    
+    .sc7-con-txt {
+        width: 100%;
+        height: 50px;
+        font: 15px/50px 'NEXON Lv2 Gothic';
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+    }
+    
+    #sc7-bottom-txt {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        top: -200px;
+        text-align: center;
+    }
+    
+    #sc7-bottom-txt li:nth-child(1) {
+        height: 50px;
+        font: 600 18px/50px 'NEXON Lv2 Gothic';
+    }
+    
+    #sc7-bottom-txt li:nth-child(2) {
+        height: 50px;
+        font: 15px/22px 'NEXON Lv2 Gothic';
+    }
+    
+    /*section-7 ---------------*/
+    
+    
+    footer {
+        height: 300px;
+        background-color: #575757;
+        margin-top: 210px;
+    }
+    
+    #in-footer-logo {
+        width: 110px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    
+    #footer-center {
+        width: 100%;
+        height: 45px;
+        font: 13px/22px 'NEXON Lv2 Gothic';
+        color: #a8a8a8;
+        text-align: center;
+        margin-top: 35px;
+    }
+    
+    #footer-bottom {
+        width: 100%;
+        height: 100px;
+        font: 13px/22px 'NEXON Lv2 Gothic';
+        color: #a8a8a8;
+        text-align: center;
+    }
+    
+    #footer-icon {
+        width: 128px;
+        height: 20px;
+        margin: 0 auto;
+    }
+    
+    #footer-icon img {
+        float: left;
+        margin-right: 20px;
+        opacity: 0.7;
+    }
+    
+    #footer-icon img:nth-child(1) {
+        width: 20px;
+    }
+    
+    #footer-icon img:nth-child(2) {
+        width: 16px;
+        margin-top: -1px;
+    }
+    
+    #footer-icon img:nth-child(3) {
+        width: 9px;
+        margin-top: -3px;
+    }
+    
+    #footer-icon img:last-child {
+        width: 23px;
+        margin-right: 0;
+    }
+    
+    /*footer ---------------*/
+    
+    
+    #top-btn {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #a5a5a5;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        font: 25px/37px 'NanumSquareNeo-Variable';
+        color: #656565;
+        text-align: center;
+        position: fixed;
+        bottom: 25px;
+        right: /*25px*/ -35px;
+        z-index: 99;
+        cursor: pointer;
+        opacity: 0;
+        transition-duration: 0.5s;
+    }
+    
+    /*top-btn --------------------*/
+    
+    
+} /*tab end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
